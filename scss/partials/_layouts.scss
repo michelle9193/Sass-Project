@@ -1,0 +1,47 @@
+.container {
+    display: grid;
+    grid-gap: 1.25rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(1, 28.125rem);
+    margin: 0 20px;
+
+    grid-template-areas: 
+        "wildlife wildlife wildlife"
+      
+}
+
+.wildlife {
+    grid-area: wildlife;
+}
+
+
+.wrapper {
+    display: grid;
+    grid-gap: 1.25rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(1, 28.125rem);
+    margin: 0 20px;
+
+    grid-template-areas: 
+        "pics pics pics"
+}
+
+.resorts {
+    grid-area: resorts;
+}
+
+
+.wrapper1 {
+    display: grid;
+    grid-gap: 1.25rem;
+    grid-template-columns: 3fr ;
+    grid-template-rows: repeat(1, 28.125rem);
+    margin: 0 20px;
+
+    grid-template-areas: 
+        "tips"
+}
+
+.tips {
+    grid-area: tips;
+}

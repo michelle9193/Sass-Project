@@ -10,10 +10,10 @@
 .main {
 
     &-header {
-        background-image: linear-gradient($color-head-light, $color-head-dark), url(../images/camping.png);
+        background-image: linear-gradient($color-shadow, $color-shadow), url(../images/camping.png);
         background-repeat: no-repeat;
         background-size: cover;
-        height: 50rem; 
+        height: 40rem; 
         text-align: center;
         padding-top: 200px;
 
@@ -59,11 +59,10 @@
 
 // Arrow image icon
 
-i.fas.fa-arrow-down  {
-    color:white;
+.arrow {
     width: 50px;
-    font-size: 50px;
-    margin-top: 200px;
-   
+    margin-top: 150px;
 }
+
+
 
